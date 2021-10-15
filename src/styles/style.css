@@ -1,8 +1,35 @@
 /** CSS STYLE **/
 
-@import "default.css";
-@import "colors.css";
-@import "atomic.css";
+@import "base/default.css";
+@import "base/colors.css";
+@import "base/atomic.css";
+@import "atoms/button.css";
+/* ----------------------------------------- */
+
 .header-title {
     margin-bottom: 185px;
+    z-index: 1;
+}
+
+.btn-details {
+    margin-top: 50px;
+}
+
+.main-header::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../img/background.png") no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.header-img {
+    top: 55px;
+    right: -270px;
+    width: 1080px;
+    height: 525px;
+    background: url("../img/main.png") no-repeat;
+    background-size: cover;
 }
