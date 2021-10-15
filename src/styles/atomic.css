@@ -1,0 +1,39 @@
+.d-flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.split-columns-2>* {
+  width: calc(50% - 15px);
+}
+
+.black-color {
+  color: var(--black);
+}
+
+.primary-color {
+  color: var(--primary);
+}
+
+.white-color {
+  color: var(--white);
+}
+
+.secondary-color {
+  color: var(--secondary);
+}
+
+.bg-light {
+  background-color: var(--background-light);
+}
+
+.bg-dark {
+  background-color: var(--backround-dark);
+}
