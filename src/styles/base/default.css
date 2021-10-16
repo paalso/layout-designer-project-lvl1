@@ -11,6 +11,18 @@
     src: url('../../fonts/Neucha-Regular.ttf');
 }
 
+@font-face {
+    font-weight: normal;
+    font-family: 'Open Sans';
+    src: url('../../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-weight: bold;
+    font-family: 'Open Sans';
+    src: url('../../fonts/OpenSans-Bold.ttf');
+}
+
 body {
     font: normal 16px/1.6em "Open Sans", sans-serif;
     color: var(--black);

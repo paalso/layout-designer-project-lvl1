@@ -18,12 +18,25 @@
   position: absolute;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.vert-align-middle {
+  /* убираем зазор между фреймом и блоком ниже */
+  vertical-align: middle;
+}
+
 .columns-container-2>* {
   width: calc(50% - 15px);
 }
 
 .mb-15 {
   margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
 }
 
 /* --- Colors ----------------------------- */
@@ -48,6 +61,6 @@
   background-color: var(--background-light);
 }
 
-.bg-dark {
-  background-color: var(--backround-dark);
+.bg-primary-dark {
+  background-color: var(--primary-dark);
 }
