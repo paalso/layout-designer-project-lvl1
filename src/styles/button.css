@@ -1,14 +1,16 @@
 @import "../base/default.css";
-/* --------------------------------------- */
 
 .btn {
   display: block;
   width: fit-content;
   padding: 12px 24px;
-  font-weight: bold;
-  text-transform: uppercase;
-  background-color: var(--primary);
+
   color: var(--white);
+  font-weight: bold;
+
+  text-transform: uppercase;
+
+  background-color: var(--primary);
 }
 
 .btn:hover {
