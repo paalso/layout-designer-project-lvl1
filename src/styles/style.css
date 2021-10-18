@@ -5,24 +5,11 @@
 @import "base/atomic.css";
 @import "button.css";
 @import "card.css";
-
-@font-face {
-  font-weight: normal;
-  font-family: 'Neucha';
-  src: url('../../fonts/Neucha-Regular.ttf');
-}
+@import "biase-block.css";
 
 /* ----------------------------------------- */
 
-.header-title {
-  margin-bottom: 185px;
-}
-
-.btn-details {
-  margin-top: 50px;
-}
-
-.main-header::before {
+.question-background::before {
   position: absolute;
 
   width: 100%;
@@ -33,6 +20,16 @@
   opacity: 0.1;
 
   content: "";
+}
+
+/* ----------------------------------------- */
+
+.header-title {
+  margin-bottom: 185px;
+}
+
+.btn-details {
+  margin-top: 50px;
 }
 
 .header-img {
@@ -48,8 +45,6 @@
 
 .video-section .video {
   margin-bottom: -100px;
-
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .video-section .container {

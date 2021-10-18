@@ -1,0 +1,38 @@
+.biase-block img {
+  max-width: 100%;
+  margin-bottom: 100px;
+}
+
+.biase-block .running-head {
+  font-size: 24px;
+}
+
+.biase-block .biase-thesis {
+  font-size: 34px;
+  line-height: 1.2;
+}
+
+.biase-block .biase-content-header {
+  margin-bottom: 20px;
+  padding: 5px 0 5px 10px;
+
+  font-weight: bold;
+  font-size: 14px;  /* font: 14px/1.2em "Open Sans", sans-serif; */
+  font-family: "Open Sans", sans-serif;
+
+  text-transform: uppercase;
+}
+
+.biase-block.light-theme {
+  background-color: var(--background-light);
+}
+
+.biase-block.light-theme .running-head {
+  color: var(--secondary);
+}
+
+.biase-block.light-theme .biase-content-header {
+  color: var(--white);
+
+  background-color: var(--backround-dark);
+}

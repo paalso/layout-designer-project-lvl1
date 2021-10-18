@@ -47,6 +47,10 @@
   font-family: "Neucha", cursive;
 }
 
+.shadow {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
 /* --- Colors ----------------------------- */
 
 .black-color {
