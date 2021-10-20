@@ -1,3 +1,5 @@
+@import "base/colors.css";
+
 .biase-block img {
   max-width: 100%;
   margin-bottom: 100px;
@@ -23,6 +25,7 @@
   text-transform: uppercase;
 }
 
+/* --- biase-block light-theme --- */
 .biase-block.light-theme {
   background-color: var(--background-light);
 }
@@ -34,5 +37,19 @@
 .biase-block.light-theme .biase-content-header {
   color: var(--white);
 
-  background-color: var(--backround-dark);
+  background-color: var(--background-dark);
+}
+
+/* --- biase-block dark-theme --- */
+
+.biase-block.dark-theme {
+  color: var(--white);
+
+  background-color: var(--background-dark);
+}
+
+.biase-block.dark-theme .biase-content-header {
+  color: var(--background-dark);
+
+  background-color: var(--white);
 }
