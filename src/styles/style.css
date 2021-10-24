@@ -1,47 +1,13 @@
 /** CSS STYLE **/
 
-@import "base/default.css";
-@import "base/colors.css";
-@import "base/atomic.css";
+@import "basic/default.css";
+@import "basic/colors.css";
+@import "basic/atomic.css";
 @import "button.css";
 @import "card.css";
+@import "header.css";
 @import "biase-block.css";
-
-/* ----------------------------------------- */
-
-.question-background::before {
-  position: absolute;
-
-  width: 100%;
-  height: 100%;
-
-  background: url("../img/background.png") no-repeat;
-  background-size: cover;
-  opacity: 0.1;
-
-  content: "";
-}
-
-/* ----------------------------------------- */
-
-.header-title {
-  margin-bottom: 185px;
-}
-
-.btn-details {
-  margin-top: 50px;
-}
-
-.header-img {
-  top: 55px;
-  right: -270px;
-
-  width: 1080px;
-  height: 525px;
-
-  background: url("../img/main.png") no-repeat;
-  background-size: cover;
-}
+@import "subscribe.css";
 
 .video-section .video {
   margin-bottom: -100px;
@@ -57,4 +23,14 @@
 
 .navigation .nav-title {
   font-size: 52px;
+}
+
+.copyright-block div {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.copyright-block a {
+  color: var(--blue);
+  text-decoration: underline;
 }
