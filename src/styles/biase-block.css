@@ -39,6 +39,25 @@
   background-color: var(--background-dark);
 }
 
+/* --- biase-block premature-optimization Workaround --- */
+
+.biase-block.dark-theme .biase-block-header h2 {
+  color: var(--white) !important;
+}
+
+#premature-optimization h2 {
+  color: var(--primary);
+}
+
+#premature-optimization ul {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#premature-optimization li {
+  margin-left: 50px;
+}
+
 /* --- biase-block dark-theme --- */
 
 .biase-block.dark-theme {
