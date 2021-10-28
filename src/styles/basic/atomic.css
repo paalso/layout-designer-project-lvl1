@@ -31,11 +31,11 @@
   vertical-align: middle;
 }
 
-.columns-container-2>* {
+.columns-container-2 > * {
   width: calc(50% - 15px);
 }
 
-.columns-container-3>* {
+.columns-container-3 > * {
   width: calc((33.3% - 20px));
 }
 
