@@ -9,6 +9,8 @@
 @import "biase-block.css";
 @import "subscribe.css";
 
+/* --- video section --- */
+
 .video-section .video {
   margin-bottom: -100px;
 }
@@ -21,9 +23,13 @@
   padding-top: 200px;
 }
 
+/* --- navigation section --- */
+
 .navigation .nav-title {
   font-size: 52px;
 }
+
+/* --- copyright block --- */
 
 .copyright-block div {
   font-size: 14px;
