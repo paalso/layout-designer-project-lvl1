@@ -1,6 +1,6 @@
 # [Cognitive Biases](https://ru.hexlet.io/programs/layout-designer/projects/58)
 
-### Level 1 project on Hexlet, program [Layout designer](https://ru.hexlet.io/programs/layout-designer).
+### Level 1 project on Hexlet, Program [Layout designer](https://ru.hexlet.io/programs/layout-designer).
 
 
 
